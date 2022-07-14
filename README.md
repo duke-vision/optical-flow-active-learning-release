@@ -2,9 +2,9 @@
 
 ![Python 3.6.9](https://img.shields.io/badge/python-3.6.9-green.svg?style=plastic) ![PyTorch 1.1.0](https://img.shields.io/badge/pytorch-1.1.0-green.svg?style=plastic)
 
-This repository contains the PyTorch implementation of our paper titled *Optical Flow Training under Limited Label Budget via Active Learning*, which has been accepted by ECCV-2022.
+This repository contains the PyTorch implementation of our paper titled [*Optical Flow Training under Limited Label Budget via Active Learning*](https://arxiv.org/pdf/2203.05053), which has been accepted by ECCV-2022.
 
-![](overview_v2.pdf)
+<img src="overview_v2.png">
 
 ## Code credits
 
