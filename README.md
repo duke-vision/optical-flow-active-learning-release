@@ -1,8 +1,8 @@
-# Semi-Supervised Active Learning of Optical Flow (under review)
+# Optical Flow Training under Limited Label Budget via Active Learning (ECCV-2022)
 
 ![Python 3.6.9](https://img.shields.io/badge/python-3.6.9-green.svg?style=plastic) ![PyTorch 1.1.0](https://img.shields.io/badge/pytorch-1.1.0-green.svg?style=plastic)
 
-This repository contains the PyTorch implementation of our submitted paper titled *Semi-Supervised Active Learning of Optical Flow*. **This version is used for review only. Please do not distribute.** Thanks!
+This repository contains the PyTorch implementation of our paper titled *Optical Flow Training under Limited Label Budget via Active Learning*, which has been accepted by ECCV-2022.
 
 ![](overview_v2.pdf)
 
@@ -47,7 +47,7 @@ Due to copyright issues, please download the dataset from the official websites.
 
 ## Pre-trained models
 
-Due to the file size limit, we only include 3 models here under the folder `./pretrained_models/`.
+All pre-trained models for Sintel and KITTI benchmark testing can be downloaded [here](https://drive.google.com/drive/folders/1tLZhkdlDZQDA65MqVEw-Oql5fteFAWN0?usp=sharing).
 
 ## Usage
 
@@ -189,7 +189,7 @@ zip -r ../kitti2015.zip *
 
 
 ----
-Last update: 11/23/2021
+Last update: 07/14/2022
 
 
 
