@@ -148,7 +148,7 @@ python3 select.py --model=PRETRAINED_KITTI/model_ep500_ckpt.pth.tar --candidate-
 python3 train.py -c configs/kitti_ft_ar_active.json --n_gpu=N_GPU --user=USER --name=EXPNAME
 ```
 
-### Sintel benchmark testing (Reproducing Tab. 3 in the paper)
+### Sintel benchmark testing (Reproducing Tab. 1 in the paper)
 The same procedure as the "Sintel validation errors" above. Only need to change to `--candidate-set=sintel_trainval` in Step 1 and use [configs/kitti_ft_ar_active_test.json](./configs/kitti_ft_ar_active_test.json) instead. For the modified version "occ-2x" in the paper, use [configs/sintel_ft_ar_active_test_double.json](./configs/sintel_ft_ar_active_test_double.json) instead.
 
 
@@ -164,7 +164,7 @@ cd /PATH/TO/YOUR/MPI-Sintel/bundler/linux-x64
 ./bundler $CKPT_FOLDER/test_flow_sintel/clean/ $CKPT_FOLDER/test_flow_sintel/final/ $CKPT_FOLDER/test_flow_sintel/submit.lzma
 ```
 
-### KITTI benchmark testing (Reproducing Tab. 4 in the paper)
+### KITTI benchmark testing (Reproducing Tab. 2 in the paper)
 The same procedure as the "KITTI validation errors" above. Only need to change to `--candidate-set=kitti_trainval` in Step 1 and use [configs/kitti_ft_ar_active_test.json](./configs/kitti_ft_ar_active_test.json) instead.
 
 To infer on the test set and submit, run
@@ -181,7 +181,7 @@ cd $CKPT_FOLDER/test_flow_kitti/kitti2015
 zip -r ../kitti2015.zip *
 ```
 
-## Ablation study (Reproducing Tab. 2 in the paper)
+## Ablation study (Reproducing Tab. 3 in the paper)
 
 - The first row in the table is our current setting in "Sintel validation errors"
 - The second row is using supervised samples in Stage 2 only. Use [configs/sintel_ft_ar_active_stage2sup.json](./configs/sintel_ft_ar_active_stage2sup.json) instead.
@@ -189,7 +189,7 @@ zip -r ../kitti2015.zip *
 
 
 ----
-Last update: 07/14/2022
+Last update: 07/16/2022
 
 
 
