@@ -6,6 +6,19 @@ This repository contains the PyTorch implementation of our paper titled [*Optica
 
 <img src="overview_v2.png">
 
+[**Poster**](https://users.cs.duke.edu/~shuai/publications/yuan2022optical_poster.pdf) | [**Video**](https://users.cs.duke.edu/~shuai/publications/yuan2022optical_video.mp4)
+
+## Citation
+```
+@InProceedings{yuan2022optical,
+  title =     "Optical Flow Training Under Limited Label Budget via Active Learning",
+  author =    "Yuan, Shuai and Sun, Xian and Kim, Hannah and Yu, Shuzhi and Tomasi, Carlo",
+  booktitle = "European Conference on Computer Vision",
+  pages =     "410--427",
+  year =      "2022"
+}
+```
+
 ## Code credits
 
  - The overall structure of this code is adapted from the official [ARFlow github repo](https://github.com/lliuz/ARFlow) of Liang Liu *et al.*, appeared in their publication [Learning by Analogy: Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation](https://arxiv.org/abs/2003.13045).
