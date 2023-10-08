@@ -6,7 +6,7 @@ This repository contains the PyTorch implementation of our paper titled [*Optica
 
 <img src="overview_v2.png">
 
-[**Poster**](https://users.cs.duke.edu/~shuai/publications/yuan2022optical_poster.pdf) | [**Video**](https://users.cs.duke.edu/~shuai/publications/yuan2022optical_video.mp4)
+[**Poster**](https://users.cs.duke.edu/~shuai/publications/yuan2022optical_poster.pdf) | [**Video (YouTube)**](https://youtu.be/AwRRwSJGVJE) | [**Video (Bilibili)**](https://www.bilibili.com/video/BV1LB4y1Z7nx)
 
 ## Citation
 ```
